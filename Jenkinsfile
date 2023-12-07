@@ -2,9 +2,9 @@ pipeline {
     agent any
 
     stages {   
-        stage('Deploy branch') { 
+        stage('Deploy branch update') { 
             steps { 
-               sh 'echo "This is Deploy branch"' 
+               sh 'echo "This is Deploy branch update"' 
             }
         }
      
